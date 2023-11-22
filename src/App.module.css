@@ -5,7 +5,7 @@
 
     display: grid;
     grid-template-columns: 256px 1fr;
-    gap: 4ren;
+    gap: 2ren;
     align-items: flex-start;
 
 
