@@ -1,9 +1,12 @@
 import styles from './Header.module.css'
 
-export function Header () {
+import igniteLogo from '../assets/ignite-logo.svg';
+
+
+export function Header() {
     return (
         <header className={styles.header}>
-            <strong>Hycaro Phillype</strong> 
+            <img src={igniteLogo} alt="Logo tipo do Ignite" />
        </header>
-    )
+    );
 }
