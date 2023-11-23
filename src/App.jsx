@@ -17,7 +17,7 @@ import { Sidebar } from './components/Sidebar';
           <Sidebar />
           <main>
             <Post  
-              author="Hycaro Phillype" 
+              author="Edimara Lopes" 
               content="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime eaque ducimus soluta atque? Laboriosam saepe porro praesentium minus nihil consectetur amet consequatur, quidem reprehenderit cum quis iste tenetur hic harum!"
             />
             <Post

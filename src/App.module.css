@@ -1,11 +1,11 @@
 .wrapper {
-    max-width: 70ren;
+    max-width: 70rem;
     margin: 2ren auto;
-    padding: 0 1ren;
+    padding: 0 1rem;
 
     display: grid;
     grid-template-columns: 256px 1fr;
-    gap: 2ren;
+    gap: 2rem;
     align-items: flex-start;
 
 
