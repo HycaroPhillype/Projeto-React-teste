@@ -1,3 +1,4 @@
+import { Comment } from './Comment';
 import styles from './Post.module.css';
 
 export function Post() {
@@ -16,7 +17,7 @@ export function Post() {
                     
             </header>
 
-            <dir className={styles.content}>
+            <div className={styles.content}>
                 <p>Fala galeraa </p>
 
                 <p>Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat.O nome do projeto é DoctorCare 🚀</p>
@@ -24,7 +25,7 @@ export function Post() {
                 <p>👉 <a href="">jane.design/doctorcare</a></p>
 
                 <p><a href="">#novoprojeto #nlw #rocketseat</a></p>
-            </dir>
+            </div>
 
             <form className={styles.commentForm}>
                 <strong>Deixe seu feedback</strong>
@@ -35,9 +36,14 @@ export function Post() {
                 <footer>
                      <button type='submit'>Publicar</button>
                 </footer>
+           </form>
 
+           <div className={styles.commentList}>
+                <Comment />
+                <Comment />
+                <Comment />
             
-            </form>
+           </div>
         </article>
     )
 }
