@@ -1,4 +1,4 @@
-import { ThumbsUp, Trash, TrashSimple } from 'phosphor-react';
+import { ThumbsUp, Trash} from 'phosphor-react';
 import styles from './Comment.module.css';
 
 export function Comment () {
