@@ -7,16 +7,16 @@ export function Comment () {
             <img src="https://github.com/HycaroPhillype.png" alt="" />
 
             <div className={styles.commentBox}>
-                <div className={styles.commente.Content}>
-                    <head>
-                        <div className={styles.athorAndTime}>
+                <div className={styles.commentContent}>
+                    <header>
+                        <div className={styles.authorAndTime}>
                             <strong>Diego Fernandes</strong>
                             <time title='23 de Novembro as 11:18' dateTime="2023-05-11 08:13:30">Cerca de 1h atrás</time>
                         </div>
                         <button title='Deletar comentário'>
-                            <Trash size={20} />
+                            <Trash size={24} />
                         </button>
-                    </head>
+                    </header>
                     <p>Muito bom Devon, parabéns!! </p>
                 </div>
 
@@ -30,3 +30,4 @@ export function Comment () {
         </div>
     )
 }
+ 
