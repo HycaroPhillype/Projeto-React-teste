@@ -10,7 +10,8 @@ export function Comment ({ content, onDeleteComment }) {
     }
 
     function handLikeComment() {
-        setLikeCount(likeCount + 1);
+        const newLikeCount = likeCount + 1
+        setLikeCount(newLikeCount);
     }
     return (
         <div className={styles.comment}>
